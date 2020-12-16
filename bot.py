@@ -14,7 +14,7 @@ client.remove_command( 'help' )
 @client.event
 
 async def on_ready():
-	print( 'Bot discord: STARTED' )
+	print( 'STARTED' )
 
 	await client.change_presence( status = discord.Status.do_not_disturb, activity=discord.Streaming(name="w.help", url = 'https://www.twitch.tv/feeling_bot' ))
 #========================================
